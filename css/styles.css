@@ -48,3 +48,10 @@ input, select{
 .hide {
     display: none;
 }
+
+@media (max-width: 800px) {
+    .flex-container {
+      width:100%;
+      flex-direction: column;
+    }
+  }
